@@ -1,6 +1,6 @@
 const palindromes = function (isPalindrome) {
 
-    var punctuation = /[\.,?! ]/g;
+    var punctuation = /[\.,?! ]/g; // added whitespace
     var confirmed;
     isPalindrome = isPalindrome.replace(punctuation, "").toLowerCase();
     // isPalindrome = isPalindrome.replace(" ", "").toLowerCase();
