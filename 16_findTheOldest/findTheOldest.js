@@ -4,7 +4,7 @@ const findTheOldest = function() {
     // find the older
     const oldest = 1;
     const youngest = 2;
-
+  const merge1 = 2;
     // all for branch testing
 };
 
